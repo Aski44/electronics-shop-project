@@ -29,7 +29,7 @@ class Item:
         """
         pass
 class Item:
-    # Class attribute to store the discount level
+    # Атрибут класса для хранения скидки
     pay_rate = 1
     all = []
 
