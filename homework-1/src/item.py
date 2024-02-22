@@ -40,6 +40,7 @@ class Item:
         self.total_price = price * quantity
         Item.all.append(self)
 
+    @property
     def calculate_total_price(self):
         return self.total_price
 
